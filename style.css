@@ -1,0 +1,85 @@
+body{
+    margin: 0%;
+    padding: 0;
+    background:url(wallpapersden.com_fantasy-castle-hd-moon-ai-2023-art_1927x1080.jpg);
+    height: 100vh;
+    display: flex;
+
+}
+.center{
+    width: 420px;
+    position:absolute;
+    top: 40%;
+    left: 40%;
+    transform:translate(-50%,-50%);
+    width: 400px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,0.2);
+    backdrop-filter:blur(1px);
+    color: #fff;
+    border-radius: 50px;
+    box-shadow: 0 0 50px ;
+}
+body::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url(wallpapersden.com_fantasy-castle-hd-moon-ai-2023-art_1927x1080.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.center h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 1px solid;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form.txt_field{
+    position: relative;
+    margin: 58px 0;
+    height: 30px;
+    width: 40px;
+    padding: 40px;
+
+}
+.txt_field1 input{
+    width: 100%; 
+    padding: 8px;
+    height: 50px;
+    border-radius: 40px;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+.txt_field input{
+    width: 100%; 
+    padding: 8px;
+    height: 50px;
+    border-radius: 40px;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.remember-forget{
+    display:inline;
+    justify-content: space-between;
+    font-size: 17px;
+    margin: -12px 0 12px;
+    color: white;
+    
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+
+
+}
+.register-link{
+    color: white;
+    text-align: center;
+}
